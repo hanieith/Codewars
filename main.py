@@ -23,3 +23,6 @@ def high(x):
     lenw.append(c)
     z = lenw.index(max(lenw))
     return x[z]
+# for checking
+# z = input()
+# print(high(z))
