@@ -3,5 +3,16 @@ def nod(a,b):
         if a > b:
             a -= b
         else:
-            b -=
+            b -= a
     return a
+
+#fast algoritm
+
+def nod_fast(a,b):
+    if a < b:
+        a, b = b, a
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+
